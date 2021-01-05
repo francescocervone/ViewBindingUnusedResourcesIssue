@@ -19,6 +19,8 @@ android {
         buildFeatures.viewBinding = true
     }
 
+    lintOptions.warningsAsErrors = true
+
     buildTypes {
         release {
             minifyEnabled false
